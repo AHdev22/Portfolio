@@ -1,0 +1,61 @@
+# ========================
+# 1. GLOBAL / OS FILES
+# ========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ========================
+# 2. BACKEND (.NET / C#)
+# ========================
+# Build Results (Never commit these!)
+[Bb]in/
+[Oo]bj/
+
+# User Settings & Caches
+.vs/
+*.user
+*.suo
+*.cache
+*.pdb
+
+# Database (Local files - Important!)
+*.mdf
+*.ldf
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets (Keep these private!)
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# User Uploads (Don't commit test images)
+wwwroot/uploads/
+wwwroot/images/temp/
+
+# Test Results
+TestResults/
+
+# ========================
+# 3. FRONTEND (REACT / FLUTTER)
+# ========================
+# Dependencies (Huge folder!)
+node_modules/
+
+# Build Output
+build/
+dist/
+out/
+
+# Environment Variables (Secrets)
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+*.log
